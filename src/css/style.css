@@ -1,13 +1,22 @@
-
 a {
-    text-decoration: #212121;
+    color: black; 
+    text-decoration: none;    
+}
+a:hover {
+    color: blue;
+}
+li {
+    list-style-type: none;
+}
+style {
+    color: blue;
 }
 h1 {
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
-.iten {
-    color: #212121;
+.black{
+    background-color: black;
 }
-.text {
-    color:#757575 ;
+.black > .block {
+    color: blue;
 }
